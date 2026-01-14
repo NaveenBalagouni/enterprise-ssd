@@ -13,7 +13,7 @@ global:
     protocol: https
     ingressClass: nginx
     ## Update the host value with proper dns entry to access the SSD UI
-    host: opsmx-ssd.ssd-uat.opsmx.org
+    host: SSD.REPLACE.THIS.WITH.YOURCOMPANY.COM
     ingress:
       annotations:
         nginx.ingress.kubernetes.io/client-header-buffer-size: 100m
